@@ -5,7 +5,7 @@ import Project3Card from "@/components/Project3Card";
 import Project4Card from "@/components/Project4Card";
 import Link from "next/link";
 
-const Projects = () => {
+const Project = () => {
   return (
     <>
       <section>
@@ -22,6 +22,7 @@ const Projects = () => {
                 src="/images/work/nextjs (2).PNG"
                 h1="First Next JS Website"
                 p=" Enjoy a seamless browsing experience on our responsive cake website."
+                projectLink="https://next-js-assignment-3-five.vercel.app/"
               />
             </div>
             <div>
@@ -30,6 +31,7 @@ const Projects = () => {
                 src="/images/work/next js assignment 5 1.png"
                 h1="My Portfolio"
                 p="My portfolio, built with Next.js and Tailwind CSS, with responsive design."
+                projectLink="https://next-js-assignment-5-portfolio.vercel.app/"
               />
             </div>
             <div>
@@ -38,6 +40,7 @@ const Projects = () => {
                 src="/images/work/next jscountdown timer.png"
                 h1="Count Down Timer"
                 p="Experience our countdown timer app, built with Next.js and Tailwind CSS."
+                projectLink="https://count-down-timer-beta-livid.vercel.app/"
               />
             </div>
             <div>
@@ -46,6 +49,7 @@ const Projects = () => {
                 src="/images/work/resume.png"
                 h1="Resume Builder"
                 p="Experience our Resume Builder, built with  html css javascript."
+                projectLink="https://miles-stone-1-static-resume.vercel.app/"
               />
             </div>
             <div>
@@ -54,6 +58,7 @@ const Projects = () => {
                 src="/images/work/hcj.PNG"
                 h1="Word Scramble Game"
                 p="Experience our Word Scramble Game, built with  html css javascript."
+                projectLink="https://sadafshahab12.github.io/Word-Scramble/"
               />
             </div>
             <div>
@@ -62,6 +67,7 @@ const Projects = () => {
                 src="/images/work/hcj10.PNG"
                 h1="Todo List App"
                 p="Experience our Todo List App, built with  html css javascript."
+                projectLink="https://to-do-list-app-nine-mu.vercel.app/"
               />
             </div>
             <div>
@@ -70,6 +76,7 @@ const Projects = () => {
                 src="/images/work/bootstrapwebsite2.png"
                 h1="Cake Website"
                 p="Enjoy a seamless browsing experience on our responsive cake website, designed to delight on any deavice!."
+                projectLink="https://sadafshahab12.github.io/Fluffy-Delights---Self-Created/"
               />
             </div>
             <div>
@@ -78,6 +85,7 @@ const Projects = () => {
                 src="/images/work/landingpage.png"
                 h1="Landing Page"
                 p="Discover our stunning landing page, crafted with HTML and CSS for a responsive design."
+                projectLink="https://sadafshahab12.github.io/Creativee-Freelance-hub-task-2/"
               />
             </div>
             <div>
@@ -86,13 +94,14 @@ const Projects = () => {
                 src="/images/work/landingpage2.png"
                 h1="Landing Page"
                 p="Discover our stunning landing page, crafted with HTML and CSS for a responsive design."
+                projectLink="https://sadafshahab12.github.io/Nike-Shoe-Responsive-Landing-Page/"
               />
             </div>
           </div>
         </div>
         <div className="text-center my-5">
           <Link
-            href="/"
+            href="https://github.com/sadafshahab12"
             className="text-[0.9rem]  bg-black text-white py-3 px-5 text-center  cursor-pointer"
           >
             Visit Github
@@ -103,4 +112,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project;
