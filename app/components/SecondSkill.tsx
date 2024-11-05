@@ -1,6 +1,6 @@
 import React from "react";
-import { Piechart } from "@/components/Piechart";
-import { SkillBar } from "@/components/SkillBar";
+import { Piechart } from "../components/Piechart";
+import { SkillBar } from "../components/SkillBar";
 const SecondSkill = () => {
   return (
     <>

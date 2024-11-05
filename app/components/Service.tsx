@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import MyServices from "@/components/MyServices";
+import MyServices from "../components/MyServices";
 import { useRouter } from "next/navigation";
 
 const Service = () => {

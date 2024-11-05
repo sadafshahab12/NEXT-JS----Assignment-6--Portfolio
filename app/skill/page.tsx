@@ -1,6 +1,6 @@
 import React from "react";
-import SkillCard from "@/components/SkillCard";
-import Skill2ndCard from "@/components/Skill2ndCard";
+import SkillCard from "../components/SkillCard";
+import Skill2ndCard from "../components/Skill2ndCard";
 
 const Skills = () => {
   return (

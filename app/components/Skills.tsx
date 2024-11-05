@@ -1,7 +1,7 @@
 import React from "react";
-import SkillCard from "@/components/SkillCard";
-import Skill2ndCard from "@/components/Skill2ndCard";
-import SecondSkill from "@/components/SecondSkill";
+import SkillCard from "../components/SkillCard";
+import Skill2ndCard from "../components/Skill2ndCard";
+import SecondSkill from "../components/SecondSkill";
 
 const Skills = () => {
   return (

@@ -3,7 +3,7 @@ import { faUpRightFromSquare, faWifi } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
-import { Badges } from "@/components/Badges";
+import { Badges } from "../components/Badges";
 import { useRouter } from "next/navigation";
 
 interface TProject {

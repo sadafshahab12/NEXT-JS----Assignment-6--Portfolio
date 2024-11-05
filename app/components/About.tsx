@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import ABoutIcon from "@/components/ABoutIcon";
+import ABoutIcon from "../components/ABoutIcon";
 import { useRouter } from "next/navigation";
 const About = () => {
   const route = useRouter()

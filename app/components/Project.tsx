@@ -1,8 +1,8 @@
 import React from "react";
-import ProjectCard from "@/components/ProjectCard";
-import Project2Card from "@/components/Project2Card";
-import Project3Card from "@/components/Project3Card";
-import Project4Card from "@/components/Project4Card";
+import ProjectCard from "../components/ProjectCard";
+import Project2Card from "../components/Project2Card";
+import Project3Card from "../components/Project3Card";
+import Project4Card from "../components/Project4Card";
 import Link from "next/link";
 
 const Project = () => {
