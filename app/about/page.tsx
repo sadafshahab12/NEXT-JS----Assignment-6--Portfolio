@@ -1,13 +1,16 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ABoutIcon from "../components/ABoutIcon";
+import { useRouter } from "next/navigation";
 const About = () => {
+  const route = useRouter()
   return (
     <>
-      <section className="bg-about bg-cover py-6 px-6 md:py-12 md:px-12" id="page2">
+      <section className="bg-about bg-cover py-6 px-6 md:py-12 md:px-12" >
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-around lg:flex-row flex-col items-center">
             {/* left  */}
@@ -39,18 +42,15 @@ const About = () => {
                 </div>
                 <div className="w-[18rem] sm:w-[36rem]">
                 <p className="text-[0.8rem] md:text-[1rem] text-wrap font-normal text-gray  tracking-wider w-full text-center leading-6  md:leading-8 ">
-                  I am a Front-End Developer passionate about creating
-                  responsive and user-friendly web applications. With skills in
-                  HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS, I
-                  thrive on turning ideas into interactive experiences. I also
-                  have a solid background in Python and SQL, which enhances my
-                  ability to develop full-stack solutions.
+                As a front-end developer, I have a strong interest in making web apps that are responsive and easy to use. I love transforming ideas into engaging experiences, and I have expertise with HTML, CSS, JavaScript, BootStrap, React.js, Next.js, and Tailwind CSS. Additionally, I am quite proficient in Python and SQL.
+ 
+
                 </p>
                 </div>
                 
                 <div className="button flex md:space-y-0 space-y-3 md:space-x-5 justify-center items-center md:flex-row flex-col">
                   <div>
-                    <button
+                    <button onClick={()=>route.push("https://wa.me/+923402195735")}
                       className={`flex gap-3 items-center py-2 px-10 rounded-full hover:about-btn text-[0.8rem] bg-black text-white cursor-pointer `}
                     >
                       {"Let's talk"}
@@ -62,7 +62,7 @@ const About = () => {
                     </button>
                   </div>
                   <div>
-                    <button
+                    <button onClick={()=>route.push("https://github.com/sadafshahab12")}
                       className={`flex gap-3 items-center  py-2 px-6 rounded-full hover:about-btn text-[0.8rem]  bg-purple text-white cursor-pointer `}
                     >
                       View My Work
@@ -70,7 +70,7 @@ const About = () => {
                     </button>
                   </div>
                 </div>
-                <div className="icon flex gap-4 justify-center items-center pt-5">
+                <div className="icon flex gap-8 justify-center items-center pt-5">
                   <ABoutIcon />
                 </div>
               </div>

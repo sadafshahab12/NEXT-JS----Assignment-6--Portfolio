@@ -28,28 +28,56 @@ const Project = () => {
             <div>
               {/* Next JS  */}
               <ProjectCard
-                src="/images/work/next js assignment 5 1.png"
-                h1="My Portfolio"
-                p="My portfolio, built with Next.js and Tailwind CSS, with responsive design."
-                projectLink="https://next-js-assignment-5-portfolio.vercel.app/"
+                src="/images/work/portfolio next js.png"
+                h1="First Next JS Website"
+                p=" Enjoy a seamless browsing experience on our responsive cake website."
+                projectLink="https://next-js-assignment-3-five.vercel.app/"
+              />
+            </div>
+     
+            <div>
+              {/* Next JS  */}
+              <ProjectCard
+                src="/images/work/nextjs website.png"
+                h1="Rise Up Website"
+                p="The motivational website was created using Tailwind CSS and Next JS, with Figma for design and code writing."
+                projectLink="https://rise-up-website-next-js-assignment-7.vercel.app/"
               />
             </div>
             <div>
               {/* Next JS  */}
               <ProjectCard
-                src="/images/work/next jscountdown timer.png"
-                h1="Count Down Timer"
-                p="Experience our countdown timer app, built with Next.js and Tailwind CSS."
-                projectLink="https://count-down-timer-beta-livid.vercel.app/"
+                src="/images/work/next js api.png"
+                h1="Book Hub"
+                p="I created a Books API that can provide a list of books together with a user interface. CRUD Operation is used in its construction."
+                projectLink="https://monday-2-5-assignment-submission-november-11-class-10.vercel.app/"
+              />
+            </div>
+            <div>
+              {/* Next JS  */}
+              <ProjectCard
+                src="/images/work/milestone.png"
+                h1="Taste Bite"
+                p="I Built a simple multi-page website using React components.I Applied Tailwind CSS to style the website, and it is responsive."
+                projectLink="https://milestone-2-assignments-next-js-with-tailwind-css.vercel.app/"
               />
             </div>
             <div>
               {/* html css javascript  */}
               <Project2Card
-                src="/images/work/resume.png"
+                src="/images/work/resumebuilder.png"
                 h1="Resume Builder"
-                p="Experience our Resume Builder, built with  html css javascript."
-                projectLink="https://miles-stone-1-static-resume.vercel.app/"
+                p="Experience our Resume Builder, built with  html css javascript.Create your resume free of cost."
+                projectLink="https://milestone-5-unique-path-and-shareable-link-pi.vercel.app/"
+              />
+            </div>
+            <div>
+              {/* html css javascript  */}
+              <Project2Card
+                src="/images/work/unique bike html css.png"
+                h1="Unique Bike"
+                p="Experience our Landing Page, built with  html css javascript.Go and Watch Javascript Functionality."
+                projectLink="https://unique-bike.vercel.app/"
               />
             </div>
             <div>

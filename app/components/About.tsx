@@ -42,12 +42,9 @@ const About = () => {
                 </div>
                 <div className="w-[18rem] sm:w-[36rem]">
                 <p className="text-[0.8rem] md:text-[1rem] text-wrap font-normal text-gray  tracking-wider w-full text-center leading-6  md:leading-8 ">
-                  I am a Front-End Developer passionate about creating
-                  responsive and user-friendly web applications. With skills in
-                  HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS, I
-                  thrive on turning ideas into interactive experiences. I also
-                  have a solid background in Python and SQL, which enhances my
-                  ability to develop full-stack solutions.
+                As a front-end developer, I have a strong interest in making web apps that are responsive and easy to use. I love transforming ideas into engaging experiences, and I have expertise with HTML, CSS, JavaScript, BootStrap, React.js, Next.js, and Tailwind CSS. Additionally, I am quite proficient in Python and SQL.
+ 
+
                 </p>
                 </div>
                 
