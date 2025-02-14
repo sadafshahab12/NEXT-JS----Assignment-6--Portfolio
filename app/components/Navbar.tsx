@@ -59,57 +59,57 @@ const Navbar = () => {
           </div>
         </div>
 
-        {toggle && (
+
           <div
             id="mobile-menu"
-            className="md:hidden block bg-white w-full absolute left-0 top-16"
+            className={`md:hidden block bg-white w-full absolute ${toggle ? "left-0" : "-left-full"} top-16 transition-all duration-700 h-screen`}
           >
             <div className="px-2 pt-2 pb-3 space-y-3 flex flex-col justify-center items-center w-full">
               <Link
                 href="/"
-                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-sm font-medium"
                 onClick={() => handleLinkClick()}
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-sm font-medium"
                 onClick={() => handleLinkClick()}
               >
                 About
               </Link>
               <Link
                 href="/skill"
-                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-sm font-medium"
                 onClick={() => handleLinkClick()}
               >
                 Skills
               </Link>
               <Link
                 href="/projects"
-                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-sm font-medium"
                 onClick={() => handleLinkClick()}
               >
                 Projects
               </Link>
               <Link
                 href="/service"
-                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-sm font-medium"
                 onClick={() => handleLinkClick()}
               >
                 Services
               </Link>
               <Link
                 href="/getintouch"
-                className="block text-base bg-[#ED4848] text-black text-[0.75rem] py-2 px-6 font-semibold rounded-2xl shadow-inner shadow-slate-600"
+                className="block text-sm bg-[#ED4848] text-black text-[0.75rem] py-2 px-6 font-semibold rounded-2xl shadow-inner shadow-slate-600"
                 onClick={() => handleLinkClick()}
               >
                 Get in Touch
               </Link>
             </div>
           </div>
-        )}
+    
       </nav>
     </>
   );
