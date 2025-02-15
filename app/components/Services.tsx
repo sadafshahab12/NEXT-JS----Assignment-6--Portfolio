@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import React from "react";
-import MyServices from "../components/MyServices";
+import MyServices from "./MyServices";
 import { useRouter } from "next/navigation";
 
-const Service = () => {
-  const route = useRouter()
+const Services = () => {
+  const route = useRouter();
   return (
     <>
       <section className="py-7">
@@ -64,7 +64,10 @@ const Service = () => {
           </div>
         </div>
         <div>
-          <button onClick={()=> route.push("https://github.com/sadafshahab12")} className="text-[0.9rem] bg-black text-white py-3 px-5 text-center mx-auto block">
+          <button
+            onClick={() => route.push("https://github.com/sadafshahab12")}
+            className="text-[0.9rem] bg-black text-white py-3 px-5 text-center mx-auto block"
+          >
             Get Started Today
           </button>
         </div>
@@ -74,4 +77,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Services;

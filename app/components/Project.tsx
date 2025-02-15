@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 import Link from "next/link";
 
-const Project = () => {
+const Projects = () => {
   return (
     <>
       <section>
@@ -32,4 +32,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

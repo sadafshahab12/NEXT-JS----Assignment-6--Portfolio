@@ -2,7 +2,10 @@ import React from "react";
 import SkillCard from "../components/SkillCard";
 import Skill2ndCard from "../components/Skill2ndCard";
 import SecondSkill from "../components/SecondSkill";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Skill | Portfolio",
+};
 const Skills = () => {
   return (
     <>
